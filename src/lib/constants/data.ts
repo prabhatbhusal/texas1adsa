@@ -214,3 +214,21 @@ export const servicephotos = [
     alt: "Tractor Mowing",
   },
 ];
+
+export const resiservice = [
+  {
+    id: 1,
+    text: "We Provide Comprehensive Landscaping Services with a Personal Touch",
+    image: "/icons/seed.svg",
+  },
+  {
+    id: 2,
+    text: "Ensures every element of your landscape is thoughtfully designed and flawlessly executed.",
+    image: "/icons/seed.svg",
+  },
+  {
+    id: 3,
+    text: "Priced with fairness in mind, offering exceptional quality without compromising your budget.",
+    image: "/icons/seed.svg",
+  },
+];

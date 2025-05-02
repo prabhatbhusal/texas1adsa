@@ -2,7 +2,9 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
-
+span{
+  font-family:'island';
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

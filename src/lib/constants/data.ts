@@ -1,6 +1,6 @@
 import {navItems} from '@/types/navbar.types'
 import {footerItems } from '@/types/common.types'
-export const NavItems:navItems[] = [
+export const NavItems: navItems[] = [
   {
     id: 1,
     title: "Home",
@@ -25,6 +25,11 @@ export const NavItems:navItems[] = [
     id: 5,
     title: "Blog",
     url: "/blog",
+  },
+  {
+    id: 6,
+    title: "Gallery",
+    url: "/gallery",
   },
 ];
 export const FooterItems: footerItems[] = [

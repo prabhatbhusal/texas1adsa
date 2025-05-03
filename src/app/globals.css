@@ -138,3 +138,6 @@ span{
 body{
   overflow-x:hidden;
 }
+.container{
+  padding-left:100px;
+}

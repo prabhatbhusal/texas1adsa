@@ -2,9 +2,11 @@ import React from 'react'
 
 const PageBanner = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+      <div>
+        
+      </div>
+    </section>
   )
 }
 

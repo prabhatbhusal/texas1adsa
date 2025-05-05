@@ -4,6 +4,8 @@ import Services from '@/components/pages/landing/Services'
 import React from 'react'
 import Residential from '@/components/pages/landing/Service'
 import Consultation from "@/components/pages/landing/consult";
+import Works from '@/components/pages/landing/Works'
+import Clients from '@/components/pages/landing/Clients'
 const page = () => {
   return (
     <div>
@@ -12,6 +14,8 @@ const page = () => {
       <Services/>
       <Residential/>
       <Consultation/>
+      <Works/>
+      <Clients/>
     </div>
   )
 }

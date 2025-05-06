@@ -1,16 +1,35 @@
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
-import { ArrowRight, Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
+import {
+  ArrowRight,
+  Facebook,
+  Instagram,
+  Mail,
+  MapPin,
+  Phone,
+} from "lucide-react";
 import { FooterItems } from "@/lib/constants/data";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <section className="relative ">
+    <section className="relative text-white font-bold">
       {/* {Background Clip part */}
-      <div></div>
+      <div>
+        <div className=" w-full h-[174px]  text-black flex justify-end pr-20  relative top-0 knockout-text">
+          <h1 className="text-[150px] font-extrabold  relative top-[-25px] knockout-text  uppercase pl-20 ">
+            ELEGANCE
+          </h1>
+        </div>
+        <div className="bg-[url(/images/clippedimg.png)] w-full h-[174px] bg-no-repeat bg-center bg-cover relative top-0">
+          <h1 className="text-[239px] font-extrabold  relative top-[-93px]  uppercase pl-20 ">
+            {" "}
+            GARDEN{" "}
+          </h1>
+        </div>
+      </div>
       {/* {main Footer Part} */}
-      <div className="bg-green-500 flex flex-col px-[100px]  ">
+      <div className=" flex flex-col px-[100px] bg-[url(/images/Footerbg.png)] bg-blend-overlay bg-neutral-700 ">
         <div className="flex justify-between items-center py-20">
           <h2>Contact</h2>
           <div className="flex gap-5">
@@ -64,24 +83,34 @@ const Footer = () => {
                 </div>
               </div>
               <div>
-                <h2 className='lg:w-50'>PROUDLY SERVING ALL OF TEXAS</h2>
-                <Image src="/images/map.png" alt="map" width={1000} height={50} className='object-contain h-50 w-50' />
+                <h2 className="lg:w-50">PROUDLY SERVING ALL OF TEXAS</h2>
+                <Image
+                  src="/images/map.png"
+                  alt="map"
+                  width={1000}
+                  height={50}
+                  className="object-contain h-50 w-50"
+                />
               </div>
               <div className="flex flex-col gap-5">
                 <h2>SOCIAL MEDIA</h2>
                 <div className="flex items-center gap-5">
-                  <span className="rounded-full p-1 border-2 border-black">
+                  <span className="rounded-full p-1 border-2 border-white">
                     <Facebook />
                   </span>
-                  <span className="rounded-full p-1 border-2 border-black">
+                  <span className="rounded-full p-1 border-2 border-white">
                     <Instagram />
                   </span>
                 </div>
               </div>
-              <div className='gap-5 flex flex-col'>
+              <div className="gap-5 flex flex-col">
                 <h2>RECEIVE SPECIAL OFFERS & PROMOS</h2>
                 <div>
-                  <input type="text" placeholder='Email' className='bg-neutral-500 py-5 px-7'/>
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    className="bg-neutral-500 py-5 px-7"
+                  />
                 </div>
               </div>
             </div>
@@ -97,7 +126,7 @@ const Footer = () => {
                   alt=""
                   width={1000}
                   height={20}
-                  className="h-10 w-50 object-contain"
+                  className="h-10 w-100 object-contain"
                 />
               </div>
             </div>

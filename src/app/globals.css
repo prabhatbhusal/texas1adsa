@@ -141,3 +141,12 @@ body{
 .container{
   padding:0 100px;
 }
+/* styles/globals.css */
+.knockout-text {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url('/images/clippedimg.png');
+  background-size: cover;
+  background-position: center;
+}

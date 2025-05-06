@@ -6,6 +6,7 @@ import Residential from '@/components/pages/landing/Service'
 import Consultation from "@/components/pages/landing/consult";
 import Works from '@/components/pages/landing/Works'
 import Clients from '@/components/pages/landing/Clients'
+import Blogs from '@/components/pages/landing/Blogs'
 const page = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const page = () => {
       <Consultation/>
       <Works/>
       <Clients/>
+      <Blogs/>
     </div>
   )
 }

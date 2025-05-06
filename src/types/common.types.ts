@@ -4,3 +4,4 @@ export type footerItems = {
     item: string;
   }[];
 };
+

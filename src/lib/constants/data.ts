@@ -1,5 +1,6 @@
-import {navItems} from '@/types/navbar.types'
-import {footerItems } from '@/types/common.types'
+import { navItems } from "@/types/navbar.types";
+import { footerItems } from "@/types/common.types";
+
 export const NavItems: navItems[] = [
   {
     id: 1,
@@ -185,8 +186,6 @@ export const FooterItems: footerItems[] = [
   },
 ];
 
-
-
 export const servicephotos = [
   {
     title: "Commerical Landscaping",
@@ -238,5 +237,22 @@ export const resiservice = [
     text: "Priced with fairness in mind, offering exceptional quality without compromising your budget.",
     src: "/icons/Discount.svg",
     alt: "discount",
+  },
+];
+
+export const homeblogs = [
+  {
+    src: "/images/blogs1.png",
+    date: "September 13, 2025",
+    title: "Low-Maintenance Landscaping: Beauty Without the Backache",
+    info: "Want a stunning yard without spending your weekends on upkeep? Learn how to create a hassle-free landscape using hardy plants, smart layouts, and time-saving techniques.",
+    alt: "Lawngarden",
+  },
+  {
+    src: "/images/blogs1.png",
+    date: "September 13, 2025",
+    title: "Low-Maintenance Landscaping: Beauty Without the Backache",
+    info: "Want a stunning yard without spending your weekends on upkeep? Learn how to create a hassle-free landscape using hardy plants, smart layouts, and time-saving techniques.",
+    alt: "Lawngarden",
   },
 ];

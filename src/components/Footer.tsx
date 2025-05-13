@@ -16,7 +16,7 @@ const Footer = () => {
     <section className="relative text-white font-bold">
       {/* {Background Clip part */}
       <div>
-        <div className=" w-full h-[174px]  text-black flex justify-end pr-20  relative top-0 knockout-text">
+        <div className=" w-full h-[174px] bg-[#f9f3e7]  text-black flex justify-end pr-20  relative top-0 knockout-text">
           <h1 className="text-[150px] font-extrabold  relative top-[-25px] knockout-text  uppercase pl-20 ">
             ELEGANCE
           </h1>
@@ -114,6 +114,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+            <div>Hello</div>
             <div className="flex flex-row justify-between items-center  relative pt-10 bottom-0">
               <p>
                 @2025 - Texas Ground Works . All Rights Reserved. Designed By:

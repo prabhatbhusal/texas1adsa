@@ -256,3 +256,37 @@ export const homeblogs = [
     alt: "Lawngarden",
   },
 ];
+export const blogsdata = [
+  {
+    src: "/images/blogs1.png",
+    alt: "Lawngarden",
+    date: "September 13 2025",
+    title: "Low-Maintenance Landscaping: Beauty Without the Backache",
+    content:
+      "Want a stunning yard without spending your weekends on upkeep? Learn how to create a hassle-free landscape using hardy plants, smart layouts, and time-saving techniques.",
+  },
+  {
+    src: "/images/blogs2.png",
+    alt: "garden",
+    date: "October 20, 2025",
+    title: "Sustainable Landscaping: Eco-Friendly Design for a Greener Future",
+    content:
+      "Go green in more ways than one. Explore sustainable landscaping practices that reduce waste, save water, and support the local ecosystem—without sacrificing style.",
+  },
+  {
+    src: "/images/blogs1.png",
+    alt: "Lawngarden",
+    date: "September 13 2025",
+    title: "Low-Maintenance Landscaping: Beauty Without the Backache",
+    content:
+      "Want a stunning yard without spending your weekends on upkeep? Learn how to create a hassle-free landscape using hardy plants, smart layouts, and time-saving techniques.",
+  },
+  {
+    src: "/images/blogs2.png",
+    alt: "garden",
+    date: "October 20, 2025",
+    title: "Sustainable Landscaping: Eco-Friendly Design for a Greener Future",
+    content:
+      "Go green in more ways than one. Explore sustainable landscaping practices that reduce waste, save water, and support the local ecosystem—without sacrificing style.",
+  },
+];
